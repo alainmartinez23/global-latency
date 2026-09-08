@@ -38,7 +38,7 @@ export default function () {
     });
 
     const res = http.post(
-        ENDPOINT_TO_TEST_GET,
+        ENDPOINT_TO_TEST_POST,
         payload,
         {
             headers: {
